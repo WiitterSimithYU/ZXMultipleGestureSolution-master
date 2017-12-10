@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		248556601FD5427F004CE728 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485565F1FD5427F004CE728 /* AppDelegate.m */; };
+		248556631FD5427F004CE728 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556621FD5427F004CE728 /* ViewController.m */; };
+		248556661FD5427F004CE728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248556641FD5427F004CE728 /* Main.storyboard */; };
+		248556681FD5427F004CE728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248556671FD5427F004CE728 /* Assets.xcassets */; };
+		2485566B1FD5427F004CE728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248556691FD5427F004CE728 /* LaunchScreen.storyboard */; };
+		2485566E1FD5427F004CE728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485566D1FD5427F004CE728 /* main.m */; };
+		248556781FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556771FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.m */; };
+		248556831FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556821FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.m */; };
+		248556931FD54302004CE728 /* ZXMutipleGestureTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556921FD54302004CE728 /* ZXMutipleGestureTableView.m */; };
+		248556971FD544D6004CE728 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556961FD544D6004CE728 /* FirstViewController.m */; };
+		2485569A1FD544DF004CE728 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556991FD544DF004CE728 /* SecondViewController.m */; };
+		2485569D1FD544E6004CE728 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485569C1FD544E6004CE728 /* ThirdViewController.m */; };
+		248556DB1FD5509E004CE728 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 248556BF1FD5509E004CE728 /* LICENSE */; };
+		248556DC1FD5509E004CE728 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556C21FD5509E004CE728 /* MASCompositeConstraint.m */; };
+		248556DD1FD5509E004CE728 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556C51FD5509E004CE728 /* MASConstraint.m */; };
+		248556DE1FD5509E004CE728 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556C71FD5509E004CE728 /* MASConstraintMaker.m */; };
+		248556DF1FD5509E004CE728 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556C91FD5509E004CE728 /* MASLayoutConstraint.m */; };
+		248556E01FD5509E004CE728 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556CD1FD5509E004CE728 /* MASViewAttribute.m */; };
+		248556E11FD5509E004CE728 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556CF1FD5509E004CE728 /* MASViewConstraint.m */; };
+		248556E21FD5509E004CE728 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556D11FD5509E004CE728 /* NSArray+MASAdditions.m */; };
+		248556E31FD5509E004CE728 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556D41FD5509E004CE728 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		248556E41FD5509E004CE728 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556D61FD5509E004CE728 /* View+MASAdditions.m */; };
+		248556E51FD5509E004CE728 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556D91FD5509E004CE728 /* ViewController+MASAdditions.m */; };
+		248556E61FD5509E004CE728 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 248556DA1FD5509E004CE728 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		248556741FD5427F004CE728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248556531FD5427F004CE728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2485565A1FD5427F004CE728;
+			remoteInfo = ZXMultipleGestureSolutionDemo;
+		};
+		2485567F1FD5427F004CE728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248556531FD5427F004CE728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2485565A1FD5427F004CE728;
+			remoteInfo = ZXMultipleGestureSolutionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2485565B1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXMultipleGestureSolutionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2485565E1FD5427F004CE728 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2485565F1FD5427F004CE728 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		248556611FD5427F004CE728 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		248556621FD5427F004CE728 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		248556651FD5427F004CE728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		248556671FD5427F004CE728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2485566A1FD5427F004CE728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2485566C1FD5427F004CE728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2485566D1FD5427F004CE728 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		248556731FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXMultipleGestureSolutionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		248556771FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXMultipleGestureSolutionDemoTests.m; sourceTree = "<group>"; };
+		248556791FD5427F004CE728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2485567E1FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXMultipleGestureSolutionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		248556821FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXMultipleGestureSolutionDemoUITests.m; sourceTree = "<group>"; };
+		248556841FD5427F004CE728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248556911FD54302004CE728 /* ZXMutipleGestureTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXMutipleGestureTableView.h; sourceTree = "<group>"; };
+		248556921FD54302004CE728 /* ZXMutipleGestureTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXMutipleGestureTableView.m; sourceTree = "<group>"; };
+		248556951FD544D6004CE728 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		248556961FD544D6004CE728 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		248556981FD544DF004CE728 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		248556991FD544DF004CE728 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2485569B1FD544E6004CE728 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		2485569C1FD544E6004CE728 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		248556A01FD54674004CE728 /* ZXMultipleGestureHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXMultipleGestureHeader.h; sourceTree = "<group>"; };
+		248556BF1FD5509E004CE728 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		248556C11FD5509E004CE728 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		248556C21FD5509E004CE728 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		248556C31FD5509E004CE728 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		248556C41FD5509E004CE728 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		248556C51FD5509E004CE728 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		248556C61FD5509E004CE728 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		248556C71FD5509E004CE728 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		248556C81FD5509E004CE728 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		248556C91FD5509E004CE728 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		248556CA1FD5509E004CE728 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		248556CB1FD5509E004CE728 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		248556CC1FD5509E004CE728 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		248556CD1FD5509E004CE728 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		248556CE1FD5509E004CE728 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		248556CF1FD5509E004CE728 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		248556D01FD5509E004CE728 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		248556D11FD5509E004CE728 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		248556D21FD5509E004CE728 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		248556D31FD5509E004CE728 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		248556D41FD5509E004CE728 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		248556D51FD5509E004CE728 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		248556D61FD5509E004CE728 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		248556D71FD5509E004CE728 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		248556D81FD5509E004CE728 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		248556D91FD5509E004CE728 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		248556DA1FD5509E004CE728 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		248556581FD5427F004CE728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248556701FD5427F004CE728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2485567B1FD5427F004CE728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		248556521FD5427F004CE728 = {
+			isa = PBXGroup;
+			children = (
+				2485565D1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo */,
+				248556761FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests */,
+				248556811FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests */,
+				2485565C1FD5427F004CE728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2485565C1FD5427F004CE728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2485565B1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo.app */,
+				248556731FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.xctest */,
+				2485567E1FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2485565D1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2485569E1FD545C8004CE728 /* Others */,
+				248556941FD544C3004CE728 /* ChildViewControllers */,
+				248556901FD542F8004CE728 /* MutipleGestureTableView */,
+				248556611FD5427F004CE728 /* ViewController.h */,
+				248556621FD5427F004CE728 /* ViewController.m */,
+				248556A01FD54674004CE728 /* ZXMultipleGestureHeader.h */,
+				2485566C1FD5427F004CE728 /* Info.plist */,
+			);
+			path = ZXMultipleGestureSolutionDemo;
+			sourceTree = "<group>";
+		};
+		248556761FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				248556771FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.m */,
+				248556791FD5427F004CE728 /* Info.plist */,
+			);
+			path = ZXMultipleGestureSolutionDemoTests;
+			sourceTree = "<group>";
+		};
+		248556811FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				248556821FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.m */,
+				248556841FD5427F004CE728 /* Info.plist */,
+			);
+			path = ZXMultipleGestureSolutionDemoUITests;
+			sourceTree = "<group>";
+		};
+		248556901FD542F8004CE728 /* MutipleGestureTableView */ = {
+			isa = PBXGroup;
+			children = (
+				248556911FD54302004CE728 /* ZXMutipleGestureTableView.h */,
+				248556921FD54302004CE728 /* ZXMutipleGestureTableView.m */,
+			);
+			path = MutipleGestureTableView;
+			sourceTree = "<group>";
+		};
+		248556941FD544C3004CE728 /* ChildViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				248556951FD544D6004CE728 /* FirstViewController.h */,
+				248556961FD544D6004CE728 /* FirstViewController.m */,
+				248556981FD544DF004CE728 /* SecondViewController.h */,
+				248556991FD544DF004CE728 /* SecondViewController.m */,
+				2485569B1FD544E6004CE728 /* ThirdViewController.h */,
+				2485569C1FD544E6004CE728 /* ThirdViewController.m */,
+			);
+			path = ChildViewControllers;
+			sourceTree = "<group>";
+		};
+		2485569E1FD545C8004CE728 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				248556BE1FD5509E004CE728 /* Masonry */,
+				2485565E1FD5427F004CE728 /* AppDelegate.h */,
+				2485565F1FD5427F004CE728 /* AppDelegate.m */,
+				248556641FD5427F004CE728 /* Main.storyboard */,
+				248556671FD5427F004CE728 /* Assets.xcassets */,
+				248556691FD5427F004CE728 /* LaunchScreen.storyboard */,
+				2485566D1FD5427F004CE728 /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		248556BE1FD5509E004CE728 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				248556BF1FD5509E004CE728 /* LICENSE */,
+				248556C01FD5509E004CE728 /* Masonry */,
+				248556DA1FD5509E004CE728 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		248556C01FD5509E004CE728 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				248556C11FD5509E004CE728 /* MASCompositeConstraint.h */,
+				248556C21FD5509E004CE728 /* MASCompositeConstraint.m */,
+				248556C31FD5509E004CE728 /* MASConstraint+Private.h */,
+				248556C41FD5509E004CE728 /* MASConstraint.h */,
+				248556C51FD5509E004CE728 /* MASConstraint.m */,
+				248556C61FD5509E004CE728 /* MASConstraintMaker.h */,
+				248556C71FD5509E004CE728 /* MASConstraintMaker.m */,
+				248556C81FD5509E004CE728 /* MASLayoutConstraint.h */,
+				248556C91FD5509E004CE728 /* MASLayoutConstraint.m */,
+				248556CA1FD5509E004CE728 /* Masonry.h */,
+				248556CB1FD5509E004CE728 /* MASUtilities.h */,
+				248556CC1FD5509E004CE728 /* MASViewAttribute.h */,
+				248556CD1FD5509E004CE728 /* MASViewAttribute.m */,
+				248556CE1FD5509E004CE728 /* MASViewConstraint.h */,
+				248556CF1FD5509E004CE728 /* MASViewConstraint.m */,
+				248556D01FD5509E004CE728 /* NSArray+MASAdditions.h */,
+				248556D11FD5509E004CE728 /* NSArray+MASAdditions.m */,
+				248556D21FD5509E004CE728 /* NSArray+MASShorthandAdditions.h */,
+				248556D31FD5509E004CE728 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				248556D41FD5509E004CE728 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				248556D51FD5509E004CE728 /* View+MASAdditions.h */,
+				248556D61FD5509E004CE728 /* View+MASAdditions.m */,
+				248556D71FD5509E004CE728 /* View+MASShorthandAdditions.h */,
+				248556D81FD5509E004CE728 /* ViewController+MASAdditions.h */,
+				248556D91FD5509E004CE728 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2485565A1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248556871FD5427F004CE728 /* Build configuration list for PBXNativeTarget "ZXMultipleGestureSolutionDemo" */;
+			buildPhases = (
+				248556571FD5427F004CE728 /* Sources */,
+				248556581FD5427F004CE728 /* Frameworks */,
+				248556591FD5427F004CE728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXMultipleGestureSolutionDemo;
+			productName = ZXMultipleGestureSolutionDemo;
+			productReference = 2485565B1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		248556721FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2485568A1FD5427F004CE728 /* Build configuration list for PBXNativeTarget "ZXMultipleGestureSolutionDemoTests" */;
+			buildPhases = (
+				2485566F1FD5427F004CE728 /* Sources */,
+				248556701FD5427F004CE728 /* Frameworks */,
+				248556711FD5427F004CE728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				248556751FD5427F004CE728 /* PBXTargetDependency */,
+			);
+			name = ZXMultipleGestureSolutionDemoTests;
+			productName = ZXMultipleGestureSolutionDemoTests;
+			productReference = 248556731FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2485567D1FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2485568D1FD5427F004CE728 /* Build configuration list for PBXNativeTarget "ZXMultipleGestureSolutionDemoUITests" */;
+			buildPhases = (
+				2485567A1FD5427F004CE728 /* Sources */,
+				2485567B1FD5427F004CE728 /* Frameworks */,
+				2485567C1FD5427F004CE728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				248556801FD5427F004CE728 /* PBXTargetDependency */,
+			);
+			name = ZXMultipleGestureSolutionDemoUITests;
+			productName = ZXMultipleGestureSolutionDemoUITests;
+			productReference = 2485567E1FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		248556531FD5427F004CE728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "郑旭";
+				TargetAttributes = {
+					2485565A1FD5427F004CE728 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					248556721FD5427F004CE728 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2485565A1FD5427F004CE728;
+					};
+					2485567D1FD5427F004CE728 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2485565A1FD5427F004CE728;
+					};
+				};
+			};
+			buildConfigurationList = 248556561FD5427F004CE728 /* Build configuration list for PBXProject "ZXMultipleGestureSolutionDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 248556521FD5427F004CE728;
+			productRefGroup = 2485565C1FD5427F004CE728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2485565A1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo */,
+				248556721FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests */,
+				2485567D1FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		248556591FD5427F004CE728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2485566B1FD5427F004CE728 /* LaunchScreen.storyboard in Resources */,
+				248556681FD5427F004CE728 /* Assets.xcassets in Resources */,
+				248556E61FD5509E004CE728 /* README.md in Resources */,
+				248556DB1FD5509E004CE728 /* LICENSE in Resources */,
+				248556661FD5427F004CE728 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248556711FD5427F004CE728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2485567C1FD5427F004CE728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		248556571FD5427F004CE728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248556E21FD5509E004CE728 /* NSArray+MASAdditions.m in Sources */,
+				248556E11FD5509E004CE728 /* MASViewConstraint.m in Sources */,
+				2485569A1FD544DF004CE728 /* SecondViewController.m in Sources */,
+				248556DE1FD5509E004CE728 /* MASConstraintMaker.m in Sources */,
+				248556E41FD5509E004CE728 /* View+MASAdditions.m in Sources */,
+				248556631FD5427F004CE728 /* ViewController.m in Sources */,
+				248556DD1FD5509E004CE728 /* MASConstraint.m in Sources */,
+				2485566E1FD5427F004CE728 /* main.m in Sources */,
+				248556E01FD5509E004CE728 /* MASViewAttribute.m in Sources */,
+				248556E31FD5509E004CE728 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				248556971FD544D6004CE728 /* FirstViewController.m in Sources */,
+				248556DC1FD5509E004CE728 /* MASCompositeConstraint.m in Sources */,
+				248556DF1FD5509E004CE728 /* MASLayoutConstraint.m in Sources */,
+				248556931FD54302004CE728 /* ZXMutipleGestureTableView.m in Sources */,
+				248556601FD5427F004CE728 /* AppDelegate.m in Sources */,
+				248556E51FD5509E004CE728 /* ViewController+MASAdditions.m in Sources */,
+				2485569D1FD544E6004CE728 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2485566F1FD5427F004CE728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248556781FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2485567A1FD5427F004CE728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248556831FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		248556751FD5427F004CE728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2485565A1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo */;
+			targetProxy = 248556741FD5427F004CE728 /* PBXContainerItemProxy */;
+		};
+		248556801FD5427F004CE728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2485565A1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo */;
+			targetProxy = 2485567F1FD5427F004CE728 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		248556641FD5427F004CE728 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248556651FD5427F004CE728 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		248556691FD5427F004CE728 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2485566A1FD5427F004CE728 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		248556851FD5427F004CE728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		248556861FD5427F004CE728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		248556881FD5427F004CE728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64MZ8X8L3H;
+				INFOPLIST_FILE = ZXMultipleGestureSolutionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZX.ZXMultipleGestureSolutionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		248556891FD5427F004CE728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64MZ8X8L3H;
+				INFOPLIST_FILE = ZXMultipleGestureSolutionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZX.ZXMultipleGestureSolutionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2485568B1FD5427F004CE728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXMultipleGestureSolutionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZX.ZXMultipleGestureSolutionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXMultipleGestureSolutionDemo.app/ZXMultipleGestureSolutionDemo";
+			};
+			name = Debug;
+		};
+		2485568C1FD5427F004CE728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXMultipleGestureSolutionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZX.ZXMultipleGestureSolutionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXMultipleGestureSolutionDemo.app/ZXMultipleGestureSolutionDemo";
+			};
+			name = Release;
+		};
+		2485568E1FD5427F004CE728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXMultipleGestureSolutionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZX.ZXMultipleGestureSolutionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZXMultipleGestureSolutionDemo;
+			};
+			name = Debug;
+		};
+		2485568F1FD5427F004CE728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXMultipleGestureSolutionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZX.ZXMultipleGestureSolutionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZXMultipleGestureSolutionDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248556561FD5427F004CE728 /* Build configuration list for PBXProject "ZXMultipleGestureSolutionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248556851FD5427F004CE728 /* Debug */,
+				248556861FD5427F004CE728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248556871FD5427F004CE728 /* Build configuration list for PBXNativeTarget "ZXMultipleGestureSolutionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248556881FD5427F004CE728 /* Debug */,
+				248556891FD5427F004CE728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2485568A1FD5427F004CE728 /* Build configuration list for PBXNativeTarget "ZXMultipleGestureSolutionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2485568B1FD5427F004CE728 /* Debug */,
+				2485568C1FD5427F004CE728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2485568D1FD5427F004CE728 /* Build configuration list for PBXNativeTarget "ZXMultipleGestureSolutionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2485568E1FD5427F004CE728 /* Debug */,
+				2485568F1FD5427F004CE728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 248556531FD5427F004CE728 /* Project object */;
+}
